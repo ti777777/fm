@@ -15,10 +15,13 @@ const routes: Routes = [
     component:ExpenseComponent
   },
   {
+    path:"budget",
+    component:ExpenseComponent
+  },
+  {
 
     path:"settings",
     component:SettingsComponent
-    
   }
 ];
 
