@@ -1,10 +1,6 @@
 
 <div id="app">
-  <div id="aside" class="p-3">
-    <h3 class="mb-5">
-      <i class="fas fa-pencil-ruler"></i>
-      支出管理系統
-    </h3>
+  <div id="aside" class="p-3 px-4">
     <ul class="list-unstyled">
       <li>
         <a [routerLink]="['/']" routerLinkActive="router-link-active"  class="text-decoration-none">
@@ -12,8 +8,18 @@
         </a>
       </li>
       <li>
-        <a [routerLink]="['/']" routerLinkActive="router-link-active"  class="text-decoration-none">
+        <a [routerLink]="['/expense']" routerLinkActive="router-link-active"  class="text-decoration-none">
           <i class="fas fa-dollar-sign"></i>支出
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/expense']" routerLinkActive="router-link-active"  class="text-decoration-none">
+          <i class="fas fa-quidditch"></i>計畫
+        </a>
+      </li>
+      <li>
+        <a [routerLink]="['/expense']" routerLinkActive="router-link-active"  class="text-decoration-none">
+          <i class="fas fa-hand-holding-usd"></i>固定性支出
         </a>
       </li>
       <li>
