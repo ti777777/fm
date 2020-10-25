@@ -15,7 +15,11 @@ export class ExpenseComponent implements OnInit {
     initialView: 'dayGridMonth',
     locale: 'zh-tw',
     dateClick: function (info) {
-      info.dayEl.style.backgroundColor = 'red';
+      console.log(info);
     },
   };
+
+  dateClick(){
+
+  }
 }
