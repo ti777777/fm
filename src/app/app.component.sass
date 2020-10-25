@@ -1,6 +1,7 @@
 $link-color:(white!important)
 
 #app
+    overflow: hidden
     width: 100vw
     height:100vh
     padding-left: 250px
@@ -29,8 +30,15 @@ li
     #app
         padding-left: 0px
     #aside
-        display: none
+        position: fixed
+        top: 0
+        height: 50px
+        width: 100vw
+        overflow: hidden
+        ul
+          display: none
     #main
+        margin-top: 50px
         background-color: #F6F9FD
         width:100vw
         height:100vh
