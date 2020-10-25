@@ -1,7 +1,7 @@
 {
   "name": "fm",
   "version": "0.0.0",
-  "main":"main.js",
+  "main": "main.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -26,6 +26,8 @@
     "@fullcalendar/interaction": "^5.3.1",
     "bootstrap": "^5.0.0-alpha1",
     "rxjs": "~6.5.5",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
   },
