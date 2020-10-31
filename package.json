@@ -26,7 +26,6 @@
     "@fullcalendar/interaction": "^5.3.1",
     "bootstrap": "^5.0.0-alpha1",
     "rxjs": "~6.5.5",
-    "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.3"
@@ -37,7 +36,7 @@
     "@angular/compiler-cli": "~10.0.2",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
-    "@types/node": "^12.11.1",
+    "@types/node": "^12.19.3",
     "codelyzer": "^6.0.0-next.1",
     "electron": "^10.1.5",
     "jasmine-core": "~3.5.0",

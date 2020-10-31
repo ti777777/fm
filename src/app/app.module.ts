@@ -16,7 +16,9 @@ import { CategoryComponent } from './dashboard/home/category/category.component'
 import { ExpenseAddButtonComponent } from './dashboard/expense/expense-add-button/expense-add-button.component';
 import { ExpenseItemComponent } from './dashboard/expense/expense-item/expense-item.component'; // a plugin
 import { ExpenseListComponent } from './dashboard/expense/expense-list/expense-list.component';
-import { PlanComponent } from './dashboard/plan/plan.component'; // a plugin
+import { PlanComponent } from './dashboard/plan/plan.component';
+import { PlanListComponent } from './dashboard/plan/plan-list/plan-list.component';
+import { NormalPlanComponent } from './dashboard/plan/normal-plan/normal-plan.component'; // a plugin
 
 FullCalendarModule.registerPlugins([ // register FullCalendar plugins
   dayGridPlugin,
@@ -37,7 +39,9 @@ FullCalendarModule.registerPlugins([ // register FullCalendar plugins
     ExpenseAddButtonComponent,
     ExpenseItemComponent,
     ExpenseListComponent,
-    PlanComponent
+    PlanComponent,
+    PlanListComponent,
+    NormalPlanComponent
   ],
   imports: [
     BrowserModule,
